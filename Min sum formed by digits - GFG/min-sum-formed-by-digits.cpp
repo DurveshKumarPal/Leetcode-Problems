@@ -8,12 +8,12 @@ class Solution{
     public:
     long long int minSum(int arr[], int n)
     {
-     long long int a=0,b=0;
-        int i=0;
+        sort(arr,arr+n);
         
-         sort(arr,arr+n);
        long long int x=0,y=0;
-       for(int i=0;i<n;i++){
+       
+       for(int i=0;i<n;i++)
+       {
            if(i%2==0)x=(x*10)+arr[i];
            else y=(y*10)+arr[i];
        }
