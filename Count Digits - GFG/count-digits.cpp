@@ -6,10 +6,10 @@ using namespace std;
 class Solution{
 public:
     int evenlyDivides(int n){
-        int count=0,num=n;
+        int count=0,sum,num=n;
         while(n)
         {
-            int sum = n%10;
+             sum = n%10;
            
             if( sum!=0 && num%sum==0 )
             count++;
