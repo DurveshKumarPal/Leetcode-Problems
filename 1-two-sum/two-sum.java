@@ -11,7 +11,7 @@ class Solution {
             else {
                     index[0] = DataSet.get(rem);
                     index[1] = i;
-                    
+                    break;
             }
 
         }
